@@ -1,0 +1,13 @@
+{
+	"survey_title": "<p>The title of the survey you want to crawl.</p><p>You can either input full or partial title. Case-sensitive</p><p><strong>For example</strong>: if survey title is 'Usability survey',<br />You can either input 'Usability' or 'survey' or 'Usability survey' (without quotes)</p><p><strong>Note:</strong> If there is more than one survey with same title, only the first survey will be traversed</p>",
+	"upload_csv": "<p>You can upload csv or xlsx file containing questions and answers</p><p>if the previous textbox is empty and csv/xlsx file is valid, it will be used for generating output<br /><br />The format should be:<br />question1, question2, question3,<br />answer1,answer1,answer1,<br />answer2,answer2,answer2,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..... ,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..... </p>",
+	"target_url": "<p>The URL which will be used as root. This URL and its child URLs will be traversed recursively</p><p>The URL <strong>must</strong> contains either '<strong>http://</strong>' or '<strong>https://</strong>'. Also the URL should be valid</p>",
+	"git_branch": "<p>The git branch to be traversed</p><p><strong>Default value</strong>: master</p>",
+	"max_depth": "<p>The maximum depth to be traversed, The value must be <strong>positive</strong> and greater than zero.</p><p>Setting lower value, will yield faster result</p><p><strong>Default value:</strong> unlimited</p>",
+	"max_thread": "<p>The maximum number of thread to be run parallel, The value must be <strong>positive</strong> and greater than zero</p><p>Setting higher value, will yield faster result.</p><p><strong>Default value:</strong> 15</p>",
+	"target_sdk": "<p>The SDK under test. As you type, suggestion box will be shown.</p><p>You <strong>must</strong> choose SDK from suggestion box.</p><p>If the SDK name doesn't exist in suggestion box, then it doesn't exist in G2Crowd and hence <strong>invalid.</strong></p>",
+	"target_urls_misspell": "<p>Shows the list of generated csv files from brokenlink checker execution within last week</p><p>Select one to check the links in csv for misspelling</p>",
+	"target_url_misspell": "<p>The URL which will be checked for misspell. <strong>Only</strong> this URL will be checked</p><p>The URL <strong>must</strong> contains either '<strong>http://</strong>' or '<strong>https://</strong>'. Also the URL should be valid</p>",
+	"upload_csv_misspell": "<p>You can upload csv file containing links</p><p>if the 'Target URL' textbox is empty and csv file is valid, the links in csv, will be checked for misspelling</p>"
+}
+
